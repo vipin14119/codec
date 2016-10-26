@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -g -DDEBUG
+CFLAGS=-Wall -g
 
 all: main.c codec.o directory.o node.o hlinks.o
 	$(CC) $(CFLAGS) -o codec  codec.o directory.o node.o hlinks.o main.c 
