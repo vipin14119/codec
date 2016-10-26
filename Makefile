@@ -23,4 +23,4 @@ cleandir: testdir
 	rm -rf testdir
 
 clean: codec
-	rm codec 
+	rm codec *.o
